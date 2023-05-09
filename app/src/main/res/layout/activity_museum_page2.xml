@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MuseumPage2">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="240dp"
+        android:layout_gravity="fill|top"
+        android:baselineAligned="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fakiehf" />
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="240dp"
+        android:layout_gravity="fill|top"
+        android:layout_marginTop="30dp"
+        android:baselineAligned="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/athrf" />
+
+
+    <ImageButton
+        android:id="@+id/booking2"
+        android:layout_width="67dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/arrow"
+        android:text="Booking Now" />
+
+    <ImageButton
+        android:id="@+id/back_Mus2"
+        android:layout_width="67dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/ssssss"/>
+
+</LinearLayout>

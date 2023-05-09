@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Hello"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/black"
+        android:textSize="59dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-1dp"
+        android:text="Sing into your Account "
+        android:textColor="@color/black"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/create" />
+
+    <EditText
+        android:id="@+id/Username_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="57dp"
+        android:hint="UserName" />
+
+    <EditText
+        android:id="@+id/password_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="Passeword" />
+
+    <Button
+        android:id="@+id/forgot_IN_page"
+        android:layout_width="297dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="150dp"
+        android:background="#03000000"
+        android:text="@string/forgot"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="-40dp"
+        android:background="#03000000"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/text_create"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/create_IN_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="-35dp"
+        android:background="#03000000"
+        android:text="@string/create_1"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+</LinearLayout>

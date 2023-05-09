@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">project</string>
+
+    <string name="text_create">Do not have an account? </string>
+    <string name="login">Log in</string>
+    <string name="create_1">Create</string>
+    <string name="create2">Create</string>
+    <string name="forgot">Forgot your password?</string>
+    <string name="firstT">It is an application that takes you to
+        a journey around the museums of the Kingdom of Saudi Arabia
+        in its various regions and presents the most prominent museums</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string-array name="museum">
+        <item>Masmak palace </item>
+        <item>SA national Museum </item>
+        <item>Fakieh Aquarium </item>
+        <item>ATHR gallery</item>
+        <item>Doss Museum </item>
+        <item>Al meger Village </item>
+    </string-array>
+</resources>
